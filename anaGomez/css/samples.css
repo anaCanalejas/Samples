@@ -1,0 +1,57 @@
+body{
+	overflow-y:hidden;
+
+}
+
+.sampleContent{
+	display: inline-block;
+	top:0px;
+	border-radius: 4px;
+	background: #A5D5DE;
+	min-height: 260px;
+	padding: 1% 1.4%;
+}
+
+.sampleDesc{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+
+article{
+	padding-top: 2%;
+}
+.sampleDisplay{
+	display: inline-block;
+	position: relative;
+	float: left;
+	top:0;
+	width: 50%;
+	padding-top: 20px;
+	
+}
+
+.sampleDesc a{
+	color: #0F6975;
+}
+
+.sampleDesc a:hover{
+	color: #fff;
+}
+
+.sampleDesc >div{
+	float: right;
+	padding-right: 2%;
+	font-weight: bold;
+}
+
+.sampleDisplay object{
+	display: absolute;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+
+
